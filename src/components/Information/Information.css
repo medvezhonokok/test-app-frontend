@@ -1,0 +1,76 @@
+.information-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -8px;
+    margin-right: 4px;
+}
+
+.container-header {
+    margin: 2rem 0 5px 5px;
+    color: white;
+    font-family: 'Google Sans', system-ui;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.info-label, .info-value {
+    font-family: 'Google Sans', system-ui;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.info-label {
+    color: #8694A1;
+}
+
+.info-value {
+    color: white;
+}
+
+.information-grid {
+    padding: 5px;
+    border: #1F2931 solid 1px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.information-grid-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.information-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.information-main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.status-button {
+    border-radius: 5px;
+    padding: 3px;
+    width: fit-content;
+    background: #2F3842;
+    color: #A6B8CC;
+    font-family: 'Google Sans', system-ui;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

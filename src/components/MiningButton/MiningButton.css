@@ -1,0 +1,24 @@
+.mining-button {
+    margin-right: -11px;
+    padding: 8px;
+    align-content: center;
+    justify-items: center;
+    position: relative;
+    margin-top: 1rem;
+    font-family: 'Google Sans', system-ui;
+    text-align: center;
+    background-color: var(--background-button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2.6rem;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.mining-button:hover {
+    background-color: #1a67a1;
+}

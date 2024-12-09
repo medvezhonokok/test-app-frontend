@@ -1,0 +1,11 @@
+:root {
+    background: #1A2026;
+
+    --background-button-color: #238BDA
+}
+
+.App {
+    margin-bottom: 10rem;
+    padding: 20px;
+    height: 100vh;
+}
